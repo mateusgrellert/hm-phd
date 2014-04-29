@@ -1,0 +1,660 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00      302     0.00     0.00  std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > const&)
+  0.00      0.00     0.00      302     0.00     0.00  std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::string const&)
+  0.00      0.00     0.00      264     0.00     0.00  df::program_options_lite::Options::addOption(df::program_options_lite::OptionBase*)
+  0.00      0.00     0.00      133     0.00     0.00  df::program_options_lite::scanLine(df::program_options_lite::Options&, std::string&)
+  0.00      0.00     0.00      102     0.00     0.00  df::program_options_lite::Option<int>::setDefault()
+  0.00      0.00     0.00      102     0.00     0.00  df::program_options_lite::Option<int>::~Option()
+  0.00      0.00     0.00      101     0.00     0.00  df::program_options_lite::OptionSpecific& df::program_options_lite::OptionSpecific::operator()<int>(std::string const&, int&, int, std::string const&)
+  0.00      0.00     0.00       83     0.00     0.00  df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&)
+  0.00      0.00     0.00       83     0.00     0.00  std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::find(std::string const&)
+  0.00      0.00     0.00       73     0.00     0.00  confirmPara(bool, char const*)
+  0.00      0.00     0.00       65     0.00     0.00  df::program_options_lite::Options::addOptions()
+  0.00      0.00     0.00       64     0.00     0.00  df::program_options_lite::Option<GOPEntry>::setDefault()
+  0.00      0.00     0.00       64     0.00     0.00  df::program_options_lite::Option<GOPEntry>::~Option()
+  0.00      0.00     0.00       61     0.00     0.00  df::program_options_lite::Option<bool>::setDefault()
+  0.00      0.00     0.00       61     0.00     0.00  df::program_options_lite::Option<bool>::~Option()
+  0.00      0.00     0.00       52     0.00     0.00  ContextModel3DBuffer::ContextModel3DBuffer(unsigned int, unsigned int, unsigned int, ContextModel*, int&)
+  0.00      0.00     0.00       39     0.00     0.00  main
+  0.00      0.00     0.00       27     0.00     0.00  df::program_options_lite::Option<int>::parse(std::string const&)
+  0.00      0.00     0.00       25     0.00     0.00  df::program_options_lite::Option<bool>::parse(std::string const&)
+  0.00      0.00     0.00       25     0.00     0.00  TComYuv::TComYuv()
+  0.00      0.00     0.00       21     0.00     0.00  ProfileTierLevel::ProfileTierLevel()
+  0.00      0.00     0.00       15     0.00     0.00  df::program_options_lite::Option<unsigned int>::setDefault()
+  0.00      0.00     0.00       15     0.00     0.00  df::program_options_lite::Option<unsigned int>::~Option()
+  0.00      0.00     0.00       11     0.00     0.00  df::program_options_lite::Option<unsigned int>::parse(std::string const&)
+  0.00      0.00     0.00       10     0.00     0.00  df::program_options_lite::Option<std::string>::setDefault()
+  0.00      0.00     0.00       10     0.00     0.00  df::program_options_lite::Option<std::string>::~Option()
+  0.00      0.00     0.00        8     0.00     0.00  df::program_options_lite::Option<GOPEntry>::parse(std::string const&)
+  0.00      0.00     0.00        8     0.00     0.00  df::program_options_lite::Option<double>::setDefault()
+  0.00      0.00     0.00        8     0.00     0.00  df::program_options_lite::Option<double>::~Option()
+  0.00      0.00     0.00        8     0.00     0.00  operator>>(std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >&, GOPEntry&)
+  0.00      0.00     0.00        7     0.00     0.00  df::program_options_lite::OptionSpecific& df::program_options_lite::OptionSpecific::operator()<std::string>(std::string const&, std::string&, std::string, std::string const&)
+  0.00      0.00     0.00        6     0.00     0.00  df::program_options_lite::Option<std::string>::parse(std::string const&)
+  0.00      0.00     0.00        3     0.00     0.00  TComScalingList::init()
+  0.00      0.00     0.00        3     0.00     0.00  TComScalingList::TComScalingList()
+  0.00      0.00     0.00        3     0.00     0.00  TComPTL::TComPTL()
+  0.00      0.00     0.00        2     0.00     0.00  TEncBinCABAC::TEncBinCABAC()
+  0.00      0.00     0.00        2     0.00     0.00  df::program_options_lite::OptionFunc::parse(std::string const&)
+  0.00      0.00     0.00        2     0.00     0.00  df::program_options_lite::parseSHORT(df::program_options_lite::Options&, unsigned int, char const**)
+  0.00      0.00     0.00        2     0.00     0.00  df::program_options_lite::parseConfigFile(df::program_options_lite::Options&, std::string const&)
+  0.00      0.00     0.00        2     0.00     0.00  df::program_options_lite::Option<double>::parse(std::string const&)
+  0.00      0.00     0.00        2     0.00     0.00  df::program_options_lite::parseGNU(df::program_options_lite::Options&, unsigned int, char const**)
+  0.00      0.00     0.00        2     0.00     0.00  df::program_options_lite::scanFile(df::program_options_lite::Options&, std::istream&)
+  0.00      0.00     0.00        2     0.00     0.00  TComVPS::TComVPS()
+  0.00      0.00     0.00        2     0.00     0.00  TEncSbac::TEncSbac()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_get_insert_unique_pos(std::string const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >*)
+  0.00      0.00     0.00        1     0.00     0.00  TAppEncCfg::xSetGlobal()
+  0.00      0.00     0.00        1     0.00     0.00  TAppEncCfg::xCheckParameter()
+  0.00      0.00     0.00        1     0.00     0.00  TAppEncCfg::xPrintParameter()
+  0.00      0.00     0.00        1     0.00     0.00  TAppEncCfg::TAppEncCfg()
+  0.00      0.00     0.00        1     0.00     0.00  TAppEncTop::xCreateLib()
+  0.00      0.00     0.00        1     0.00     0.00  TAppEncTop::xInitLibCfg()
+  0.00      0.00     0.00        1     0.00     0.00  TComPicYuv::TComPicYuv()
+  0.00      0.00     0.00        1     0.00     0.00  TComRdCost::init()
+  0.00      0.00     0.00        1     0.00     0.00  TComRdCost::TComRdCost()
+  0.00      0.00     0.00        1     0.00     0.00  TEncSearch::setWpScalingDistParam(TComDataCU*, int, RefPicList)
+  0.00      0.00     0.00        1     0.00     0.00  TEncSearch::TEncSearch()
+  0.00      0.00     0.00        1     0.00     0.00  TComRPSList::TComRPSList()
+  0.00      0.00     0.00        1     0.00     0.00  TComTrQuant::initScalingList()
+  0.00      0.00     0.00        1     0.00     0.00  TComTrQuant::TComTrQuant()
+  0.00      0.00     0.00        1     0.00     0.00  TVideoIOYuv::open(char*, bool, int, int, int, int)
+  0.00      0.00     0.00        1     0.00     0.00  ContextModel::buildNextStateTable()
+  0.00      0.00     0.00        1     0.00     0.00  TEncRateCtrl::TEncRateCtrl()
+  0.00      0.00     0.00        1     0.00     0.00  TComLoopFilter::TComLoopFilter()
+  0.00      0.00     0.00        1     0.00     0.00  TComPrediction::TComPrediction()
+  0.00      0.00     0.00        1     0.00     0.00  TEncPreanalyzer::TEncPreanalyzer()
+  0.00      0.00     0.00        1     0.00     0.00  WeightPredAnalysis::WeightPredAnalysis()
+  0.00      0.00     0.00        1     0.00     0.00  TEncBinCABACCounter::TEncBinCABACCounter()
+  0.00      0.00     0.00        1     0.00     0.00  TComWeightPrediction::TComWeightPrediction()
+  0.00      0.00     0.00        1     0.00     0.00  TComSampleAdaptiveOffset::TComSampleAdaptiveOffset()
+  0.00      0.00     0.00        1     0.00     0.00  TEncSampleAdaptiveOffset::TEncSampleAdaptiveOffset()
+  0.00      0.00     0.00        1     0.00     0.00  TComRdCostWeightPrediction::TComRdCostWeightPrediction()
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::OptionFunc::setDefault()
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::OptionFunc::~OptionFunc()
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::setDefaults(df::program_options_lite::Options&)
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::Option<Level::Name>::setDefault()
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::Option<Level::Name>::parse(std::string const&)
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::Option<Level::Name>::~Option()
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::Option<Level::Tier>::setDefault()
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::Option<Level::Tier>::~Option()
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::Option<Profile::Name>::setDefault()
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::Option<Profile::Name>::parse(std::string const&)
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::Option<Profile::Name>::~Option()
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::Options::~Options()
+  0.00      0.00     0.00        1     0.00     0.00  df::program_options_lite::scanArgv(df::program_options_lite::Options&, unsigned int, char const**)
+  0.00      0.00     0.00        1     0.00     0.00  QpParam::QpParam()
+  0.00      0.00     0.00        1     0.00     0.00  TComPPS::TComPPS()
+  0.00      0.00     0.00        1     0.00     0.00  TComSPS::TComSPS()
+  0.00      0.00     0.00        1     0.00     0.00  TComVPS::~TComVPS()
+  0.00      0.00     0.00        1     0.00     0.00  TEncCfg::xCheckGSParameters()
+  0.00      0.00     0.00        1     0.00     0.00  TEncGOP::TEncGOP()
+  0.00      0.00     0.00        1     0.00     0.00  TEncTop::TEncTop()
+  0.00      0.00     0.00        1     0.00     0.00  TEncCavlc::TEncCavlc()
+  0.00      0.00     0.00        1     0.00     0.00  TEncSlice::TEncSlice()
+  0.00      0.00     0.00        1     0.00     0.00  _init
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+[1]      0.0    0.00    0.00       4+216     <cycle 1 as a whole> [1]
+                0.00    0.00     133             df::program_options_lite::scanLine(df::program_options_lite::Options&, std::string&) <cycle 1> [16]
+                0.00    0.00      83             df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+                0.00    0.00       2             df::program_options_lite::parseConfigFile(df::program_options_lite::Options&, std::string const&) <cycle 1> [50]
+                0.00    0.00       2             df::program_options_lite::scanFile(df::program_options_lite::Options&, std::istream&) <cycle 1> [53]
+-----------------------------------------------
+                0.00    0.00      39/39          __libc_csu_init [1186]
+[2]      0.0    0.00    0.00      39         main [2]
+-----------------------------------------------
+                0.00    0.00     302/302         df::program_options_lite::Options::addOption(df::program_options_lite::OptionBase*) [15]
+[13]     0.0    0.00    0.00     302         std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > const&) [13]
+                0.00    0.00     302/302         std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::string const&) [14]
+-----------------------------------------------
+                0.00    0.00     302/302         std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > const&) [13]
+[14]     0.0    0.00    0.00     302         std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::string const&) [14]
+                0.00    0.00       2/2           std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_get_insert_unique_pos(std::string const&) [56]
+-----------------------------------------------
+                0.00    0.00       7/264         df::program_options_lite::OptionSpecific& df::program_options_lite::OptionSpecific::operator()<std::string>(std::string const&, std::string&, std::string, std::string const&) [42]
+                0.00    0.00     101/264         df::program_options_lite::OptionSpecific& df::program_options_lite::OptionSpecific::operator()<int>(std::string const&, int&, int, std::string const&) [19]
+                0.00    0.00     156/264         TAppEncCfg::parseCfg(int, char**) [150]
+[15]     0.0    0.00    0.00     264         df::program_options_lite::Options::addOption(df::program_options_lite::OptionBase*) [15]
+                0.00    0.00     302/302         std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > const&) [13]
+-----------------------------------------------
+                                 133             df::program_options_lite::scanFile(df::program_options_lite::Options&, std::istream&) <cycle 1> [53]
+[16]     0.0    0.00    0.00     133         df::program_options_lite::scanLine(df::program_options_lite::Options&, std::string&) <cycle 1> [16]
+                                  79             df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+-----------------------------------------------
+                0.00    0.00     102/102         df::program_options_lite::setDefaults(df::program_options_lite::Options&) [86]
+[17]     0.0    0.00    0.00     102         df::program_options_lite::Option<int>::setDefault() [17]
+-----------------------------------------------
+                0.00    0.00     102/102         df::program_options_lite::Options::~Options() [95]
+[18]     0.0    0.00    0.00     102         df::program_options_lite::Option<int>::~Option() [18]
+-----------------------------------------------
+                0.00    0.00     101/101         TAppEncCfg::parseCfg(int, char**) [150]
+[19]     0.0    0.00    0.00     101         df::program_options_lite::OptionSpecific& df::program_options_lite::OptionSpecific::operator()<int>(std::string const&, int&, int, std::string const&) [19]
+                0.00    0.00     101/264         df::program_options_lite::Options::addOption(df::program_options_lite::OptionBase*) [15]
+-----------------------------------------------
+                                  79             df::program_options_lite::scanLine(df::program_options_lite::Options&, std::string&) <cycle 1> [16]
+                0.00    0.00       2/4           df::program_options_lite::parseGNU(df::program_options_lite::Options&, unsigned int, char const**) [52]
+                0.00    0.00       2/4           df::program_options_lite::parseSHORT(df::program_options_lite::Options&, unsigned int, char const**) [49]
+[20]     0.0    0.00    0.00      83         df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+                0.00    0.00      83/83          std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::find(std::string const&) [21]
+                0.00    0.00      27/27          df::program_options_lite::Option<int>::parse(std::string const&) [29]
+                0.00    0.00      25/25          df::program_options_lite::Option<bool>::parse(std::string const&) [30]
+                0.00    0.00      11/11          df::program_options_lite::Option<unsigned int>::parse(std::string const&) [35]
+                0.00    0.00       8/8           df::program_options_lite::Option<GOPEntry>::parse(std::string const&) [38]
+                0.00    0.00       6/6           df::program_options_lite::Option<std::string>::parse(std::string const&) [43]
+                0.00    0.00       2/2           df::program_options_lite::Option<double>::parse(std::string const&) [51]
+                0.00    0.00       2/2           df::program_options_lite::OptionFunc::parse(std::string const&) [48]
+                0.00    0.00       1/1           df::program_options_lite::Option<Profile::Name>::parse(std::string const&) [93]
+                0.00    0.00       1/1           df::program_options_lite::Option<Level::Name>::parse(std::string const&) [88]
+                                   2             df::program_options_lite::parseConfigFile(df::program_options_lite::Options&, std::string const&) <cycle 1> [50]
+-----------------------------------------------
+                0.00    0.00      83/83          df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+[21]     0.0    0.00    0.00      83         std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::find(std::string const&) [21]
+-----------------------------------------------
+                0.00    0.00      73/73          TAppEncCfg::xCheckParameter() [59]
+[22]     0.0    0.00    0.00      73         confirmPara(bool, char const*) [22]
+-----------------------------------------------
+                0.00    0.00      65/65          TAppEncCfg::parseCfg(int, char**) [150]
+[23]     0.0    0.00    0.00      65         df::program_options_lite::Options::addOptions() [23]
+-----------------------------------------------
+                0.00    0.00      64/64          df::program_options_lite::setDefaults(df::program_options_lite::Options&) [86]
+[24]     0.0    0.00    0.00      64         df::program_options_lite::Option<GOPEntry>::setDefault() [24]
+-----------------------------------------------
+                0.00    0.00      64/64          df::program_options_lite::Options::~Options() [95]
+[25]     0.0    0.00    0.00      64         df::program_options_lite::Option<GOPEntry>::~Option() [25]
+-----------------------------------------------
+                0.00    0.00      61/61          df::program_options_lite::setDefaults(df::program_options_lite::Options&) [86]
+[26]     0.0    0.00    0.00      61         df::program_options_lite::Option<bool>::setDefault() [26]
+-----------------------------------------------
+                0.00    0.00      61/61          df::program_options_lite::Options::~Options() [95]
+[27]     0.0    0.00    0.00      61         df::program_options_lite::Option<bool>::~Option() [27]
+-----------------------------------------------
+                0.00    0.00      52/52          TEncSbac::TEncSbac() [55]
+[28]     0.0    0.00    0.00      52         ContextModel3DBuffer::ContextModel3DBuffer(unsigned int, unsigned int, unsigned int, ContextModel*, int&) [28]
+-----------------------------------------------
+                0.00    0.00      27/27          df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+[29]     0.0    0.00    0.00      27         df::program_options_lite::Option<int>::parse(std::string const&) [29]
+-----------------------------------------------
+                0.00    0.00      25/25          df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+[30]     0.0    0.00    0.00      25         df::program_options_lite::Option<bool>::parse(std::string const&) [30]
+-----------------------------------------------
+                0.00    0.00       2/25          TEncSearch::TEncSearch() [68]
+                0.00    0.00      23/25          TComPrediction::TComPrediction() [76]
+[31]     0.0    0.00    0.00      25         TComYuv::TComYuv() [31]
+-----------------------------------------------
+                0.00    0.00      21/21          TComPTL::TComPTL() [46]
+[32]     0.0    0.00    0.00      21         ProfileTierLevel::ProfileTierLevel() [32]
+-----------------------------------------------
+                0.00    0.00      15/15          df::program_options_lite::setDefaults(df::program_options_lite::Options&) [86]
+[33]     0.0    0.00    0.00      15         df::program_options_lite::Option<unsigned int>::setDefault() [33]
+-----------------------------------------------
+                0.00    0.00      15/15          df::program_options_lite::Options::~Options() [95]
+[34]     0.0    0.00    0.00      15         df::program_options_lite::Option<unsigned int>::~Option() [34]
+-----------------------------------------------
+                0.00    0.00      11/11          df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+[35]     0.0    0.00    0.00      11         df::program_options_lite::Option<unsigned int>::parse(std::string const&) [35]
+-----------------------------------------------
+                0.00    0.00      10/10          df::program_options_lite::setDefaults(df::program_options_lite::Options&) [86]
+[36]     0.0    0.00    0.00      10         df::program_options_lite::Option<std::string>::setDefault() [36]
+-----------------------------------------------
+                0.00    0.00      10/10          df::program_options_lite::Options::~Options() [95]
+[37]     0.0    0.00    0.00      10         df::program_options_lite::Option<std::string>::~Option() [37]
+-----------------------------------------------
+                0.00    0.00       8/8           df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+[38]     0.0    0.00    0.00       8         df::program_options_lite::Option<GOPEntry>::parse(std::string const&) [38]
+                0.00    0.00       8/8           operator>>(std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >&, GOPEntry&) [41]
+-----------------------------------------------
+                0.00    0.00       8/8           df::program_options_lite::setDefaults(df::program_options_lite::Options&) [86]
+[39]     0.0    0.00    0.00       8         df::program_options_lite::Option<double>::setDefault() [39]
+-----------------------------------------------
+                0.00    0.00       8/8           df::program_options_lite::Options::~Options() [95]
+[40]     0.0    0.00    0.00       8         df::program_options_lite::Option<double>::~Option() [40]
+-----------------------------------------------
+                0.00    0.00       8/8           df::program_options_lite::Option<GOPEntry>::parse(std::string const&) [38]
+[41]     0.0    0.00    0.00       8         operator>>(std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >&, GOPEntry&) [41]
+-----------------------------------------------
+                0.00    0.00       7/7           TAppEncCfg::parseCfg(int, char**) [150]
+[42]     0.0    0.00    0.00       7         df::program_options_lite::OptionSpecific& df::program_options_lite::OptionSpecific::operator()<std::string>(std::string const&, std::string&, std::string, std::string const&) [42]
+                0.00    0.00       7/264         df::program_options_lite::Options::addOption(df::program_options_lite::OptionBase*) [15]
+-----------------------------------------------
+                0.00    0.00       6/6           df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+[43]     0.0    0.00    0.00       6         df::program_options_lite::Option<std::string>::parse(std::string const&) [43]
+-----------------------------------------------
+                0.00    0.00       1/3           TEncTop::TEncTop() [103]
+                0.00    0.00       1/3           TComPPS::TComPPS() [98]
+                0.00    0.00       1/3           TComSPS::TComSPS() [99]
+[44]     0.0    0.00    0.00       3         TComScalingList::init() [44]
+-----------------------------------------------
+                0.00    0.00       1/3           TEncTop::TEncTop() [103]
+                0.00    0.00       1/3           TComPPS::TComPPS() [98]
+                0.00    0.00       1/3           TComSPS::TComSPS() [99]
+[45]     0.0    0.00    0.00       3         TComScalingList::TComScalingList() [45]
+-----------------------------------------------
+                0.00    0.00       1/3           TComSPS::TComSPS() [99]
+                0.00    0.00       2/3           TComVPS::TComVPS() [54]
+[46]     0.0    0.00    0.00       3         TComPTL::TComPTL() [46]
+                0.00    0.00      21/21          ProfileTierLevel::ProfileTierLevel() [32]
+-----------------------------------------------
+                0.00    0.00       1/2           TEncTop::TEncTop() [103]
+                0.00    0.00       1/2           TEncBinCABACCounter::TEncBinCABACCounter() [79]
+[47]     0.0    0.00    0.00       2         TEncBinCABAC::TEncBinCABAC() [47]
+-----------------------------------------------
+                0.00    0.00       2/2           df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+[48]     0.0    0.00    0.00       2         df::program_options_lite::OptionFunc::parse(std::string const&) [48]
+-----------------------------------------------
+                0.00    0.00       2/2           df::program_options_lite::scanArgv(df::program_options_lite::Options&, unsigned int, char const**) [96]
+[49]     0.0    0.00    0.00       2         df::program_options_lite::parseSHORT(df::program_options_lite::Options&, unsigned int, char const**) [49]
+                0.00    0.00       2/4           df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+-----------------------------------------------
+                                   2             df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+[50]     0.0    0.00    0.00       2         df::program_options_lite::parseConfigFile(df::program_options_lite::Options&, std::string const&) <cycle 1> [50]
+                                   2             df::program_options_lite::scanFile(df::program_options_lite::Options&, std::istream&) <cycle 1> [53]
+-----------------------------------------------
+                0.00    0.00       2/2           df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+[51]     0.0    0.00    0.00       2         df::program_options_lite::Option<double>::parse(std::string const&) [51]
+-----------------------------------------------
+                0.00    0.00       2/2           df::program_options_lite::scanArgv(df::program_options_lite::Options&, unsigned int, char const**) [96]
+[52]     0.0    0.00    0.00       2         df::program_options_lite::parseGNU(df::program_options_lite::Options&, unsigned int, char const**) [52]
+                0.00    0.00       2/4           df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+-----------------------------------------------
+                                   2             df::program_options_lite::parseConfigFile(df::program_options_lite::Options&, std::string const&) <cycle 1> [50]
+[53]     0.0    0.00    0.00       2         df::program_options_lite::scanFile(df::program_options_lite::Options&, std::istream&) <cycle 1> [53]
+                                 133             df::program_options_lite::scanLine(df::program_options_lite::Options&, std::string&) <cycle 1> [16]
+-----------------------------------------------
+                0.00    0.00       1/2           TAppEncTop::xInitLibCfg() [63]
+                0.00    0.00       1/2           TEncTop::TEncTop() [103]
+[54]     0.0    0.00    0.00       2         TComVPS::TComVPS() [54]
+                0.00    0.00       2/3           TComPTL::TComPTL() [46]
+-----------------------------------------------
+                0.00    0.00       2/2           TEncTop::TEncTop() [103]
+[55]     0.0    0.00    0.00       2         TEncSbac::TEncSbac() [55]
+                0.00    0.00      52/52          ContextModel3DBuffer::ContextModel3DBuffer(unsigned int, unsigned int, unsigned int, ContextModel*, int&) [28]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::string const&) [14]
+[56]     0.0    0.00    0.00       2         std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_get_insert_unique_pos(std::string const&) [56]
+-----------------------------------------------
+                                   1             std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >*) [57]
+                0.00    0.00       2/2           df::program_options_lite::Options::~Options() [95]
+[57]     0.0    0.00    0.00       2+1       std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >*) [57]
+                                   1             std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >*) [57]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncCfg::parseCfg(int, char**) [150]
+[58]     0.0    0.00    0.00       1         TAppEncCfg::xSetGlobal() [58]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncCfg::parseCfg(int, char**) [150]
+[59]     0.0    0.00    0.00       1         TAppEncCfg::xCheckParameter() [59]
+                0.00    0.00      73/73          confirmPara(bool, char const*) [22]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncCfg::parseCfg(int, char**) [150]
+[60]     0.0    0.00    0.00       1         TAppEncCfg::xPrintParameter() [60]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncTop::TAppEncTop() [161]
+[61]     0.0    0.00    0.00       1         TAppEncCfg::TAppEncCfg() [61]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncTop::encode() [159]
+[62]     0.0    0.00    0.00       1         TAppEncTop::xCreateLib() [62]
+                0.00    0.00       1/1           TVideoIOYuv::open(char*, bool, int, int, int, int) [72]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncTop::encode() [159]
+[63]     0.0    0.00    0.00       1         TAppEncTop::xInitLibCfg() [63]
+                0.00    0.00       1/2           TComVPS::TComVPS() [54]
+                0.00    0.00       1/1           TEncCfg::xCheckGSParameters() [101]
+                0.00    0.00       1/1           TComVPS::~TComVPS() [100]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncTop::encode() [159]
+[64]     0.0    0.00    0.00       1         TComPicYuv::TComPicYuv() [64]
+-----------------------------------------------
+                0.00    0.00       1/1           TComRdCost::TComRdCost() [66]
+[65]     0.0    0.00    0.00       1         TComRdCost::init() [65]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[66]     0.0    0.00    0.00       1         TComRdCost::TComRdCost() [66]
+                0.00    0.00       1/1           TComRdCostWeightPrediction::TComRdCostWeightPrediction() [83]
+                0.00    0.00       1/1           TComRdCost::init() [65]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncSearch::TEncSearch() [68]
+[67]     0.0    0.00    0.00       1         TEncSearch::setWpScalingDistParam(TComDataCU*, int, RefPicList) [67]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[68]     0.0    0.00    0.00       1         TEncSearch::TEncSearch() [68]
+                0.00    0.00       2/25          TComYuv::TComYuv() [31]
+                0.00    0.00       1/1           TComPrediction::TComPrediction() [76]
+                0.00    0.00       1/1           TEncSearch::setWpScalingDistParam(TComDataCU*, int, RefPicList) [67]
+-----------------------------------------------
+                0.00    0.00       1/1           TComSPS::TComSPS() [99]
+[69]     0.0    0.00    0.00       1         TComRPSList::TComRPSList() [69]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[70]     0.0    0.00    0.00       1         TComTrQuant::initScalingList() [70]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[71]     0.0    0.00    0.00       1         TComTrQuant::TComTrQuant() [71]
+                0.00    0.00       1/1           QpParam::QpParam() [97]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncTop::xCreateLib() [62]
+[72]     0.0    0.00    0.00       1         TVideoIOYuv::open(char*, bool, int, int, int, int) [72]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[73]     0.0    0.00    0.00       1         ContextModel::buildNextStateTable() [73]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[74]     0.0    0.00    0.00       1         TEncRateCtrl::TEncRateCtrl() [74]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[75]     0.0    0.00    0.00       1         TComLoopFilter::TComLoopFilter() [75]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncSearch::TEncSearch() [68]
+[76]     0.0    0.00    0.00       1         TComPrediction::TComPrediction() [76]
+                0.00    0.00      23/25          TComYuv::TComYuv() [31]
+                0.00    0.00       1/1           TComWeightPrediction::TComWeightPrediction() [80]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[77]     0.0    0.00    0.00       1         TEncPreanalyzer::TEncPreanalyzer() [77]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncSlice::TEncSlice() [105]
+[78]     0.0    0.00    0.00       1         WeightPredAnalysis::WeightPredAnalysis() [78]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[79]     0.0    0.00    0.00       1         TEncBinCABACCounter::TEncBinCABACCounter() [79]
+                0.00    0.00       1/2           TEncBinCABAC::TEncBinCABAC() [47]
+-----------------------------------------------
+                0.00    0.00       1/1           TComPrediction::TComPrediction() [76]
+[80]     0.0    0.00    0.00       1         TComWeightPrediction::TComWeightPrediction() [80]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncSampleAdaptiveOffset::TEncSampleAdaptiveOffset() [82]
+[81]     0.0    0.00    0.00       1         TComSampleAdaptiveOffset::TComSampleAdaptiveOffset() [81]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[82]     0.0    0.00    0.00       1         TEncSampleAdaptiveOffset::TEncSampleAdaptiveOffset() [82]
+                0.00    0.00       1/1           TComSampleAdaptiveOffset::TComSampleAdaptiveOffset() [81]
+-----------------------------------------------
+                0.00    0.00       1/1           TComRdCost::TComRdCost() [66]
+[83]     0.0    0.00    0.00       1         TComRdCostWeightPrediction::TComRdCostWeightPrediction() [83]
+-----------------------------------------------
+                0.00    0.00       1/1           df::program_options_lite::setDefaults(df::program_options_lite::Options&) [86]
+[84]     0.0    0.00    0.00       1         df::program_options_lite::OptionFunc::setDefault() [84]
+-----------------------------------------------
+                0.00    0.00       1/1           df::program_options_lite::Options::~Options() [95]
+[85]     0.0    0.00    0.00       1         df::program_options_lite::OptionFunc::~OptionFunc() [85]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncCfg::parseCfg(int, char**) [150]
+[86]     0.0    0.00    0.00       1         df::program_options_lite::setDefaults(df::program_options_lite::Options&) [86]
+                0.00    0.00     102/102         df::program_options_lite::Option<int>::setDefault() [17]
+                0.00    0.00      64/64          df::program_options_lite::Option<GOPEntry>::setDefault() [24]
+                0.00    0.00      61/61          df::program_options_lite::Option<bool>::setDefault() [26]
+                0.00    0.00      15/15          df::program_options_lite::Option<unsigned int>::setDefault() [33]
+                0.00    0.00      10/10          df::program_options_lite::Option<std::string>::setDefault() [36]
+                0.00    0.00       8/8           df::program_options_lite::Option<double>::setDefault() [39]
+                0.00    0.00       1/1           df::program_options_lite::Option<Level::Tier>::setDefault() [90]
+                0.00    0.00       1/1           df::program_options_lite::Option<Level::Name>::setDefault() [87]
+                0.00    0.00       1/1           df::program_options_lite::Option<Profile::Name>::setDefault() [92]
+                0.00    0.00       1/1           df::program_options_lite::OptionFunc::setDefault() [84]
+-----------------------------------------------
+                0.00    0.00       1/1           df::program_options_lite::setDefaults(df::program_options_lite::Options&) [86]
+[87]     0.0    0.00    0.00       1         df::program_options_lite::Option<Level::Name>::setDefault() [87]
+-----------------------------------------------
+                0.00    0.00       1/1           df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+[88]     0.0    0.00    0.00       1         df::program_options_lite::Option<Level::Name>::parse(std::string const&) [88]
+-----------------------------------------------
+                0.00    0.00       1/1           df::program_options_lite::Options::~Options() [95]
+[89]     0.0    0.00    0.00       1         df::program_options_lite::Option<Level::Name>::~Option() [89]
+-----------------------------------------------
+                0.00    0.00       1/1           df::program_options_lite::setDefaults(df::program_options_lite::Options&) [86]
+[90]     0.0    0.00    0.00       1         df::program_options_lite::Option<Level::Tier>::setDefault() [90]
+-----------------------------------------------
+                0.00    0.00       1/1           df::program_options_lite::Options::~Options() [95]
+[91]     0.0    0.00    0.00       1         df::program_options_lite::Option<Level::Tier>::~Option() [91]
+-----------------------------------------------
+                0.00    0.00       1/1           df::program_options_lite::setDefaults(df::program_options_lite::Options&) [86]
+[92]     0.0    0.00    0.00       1         df::program_options_lite::Option<Profile::Name>::setDefault() [92]
+-----------------------------------------------
+                0.00    0.00       1/1           df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&) <cycle 1> [20]
+[93]     0.0    0.00    0.00       1         df::program_options_lite::Option<Profile::Name>::parse(std::string const&) [93]
+-----------------------------------------------
+                0.00    0.00       1/1           df::program_options_lite::Options::~Options() [95]
+[94]     0.0    0.00    0.00       1         df::program_options_lite::Option<Profile::Name>::~Option() [94]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncCfg::parseCfg(int, char**) [150]
+[95]     0.0    0.00    0.00       1         df::program_options_lite::Options::~Options() [95]
+                0.00    0.00     102/102         df::program_options_lite::Option<int>::~Option() [18]
+                0.00    0.00      64/64          df::program_options_lite::Option<GOPEntry>::~Option() [25]
+                0.00    0.00      61/61          df::program_options_lite::Option<bool>::~Option() [27]
+                0.00    0.00      15/15          df::program_options_lite::Option<unsigned int>::~Option() [34]
+                0.00    0.00      10/10          df::program_options_lite::Option<std::string>::~Option() [37]
+                0.00    0.00       8/8           df::program_options_lite::Option<double>::~Option() [40]
+                0.00    0.00       2/2           std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >*) [57]
+                0.00    0.00       1/1           df::program_options_lite::Option<Level::Tier>::~Option() [91]
+                0.00    0.00       1/1           df::program_options_lite::Option<Level::Name>::~Option() [89]
+                0.00    0.00       1/1           df::program_options_lite::Option<Profile::Name>::~Option() [94]
+                0.00    0.00       1/1           df::program_options_lite::OptionFunc::~OptionFunc() [85]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncCfg::parseCfg(int, char**) [150]
+[96]     0.0    0.00    0.00       1         df::program_options_lite::scanArgv(df::program_options_lite::Options&, unsigned int, char const**) [96]
+                0.00    0.00       2/2           df::program_options_lite::parseSHORT(df::program_options_lite::Options&, unsigned int, char const**) [49]
+                0.00    0.00       2/2           df::program_options_lite::parseGNU(df::program_options_lite::Options&, unsigned int, char const**) [52]
+-----------------------------------------------
+                0.00    0.00       1/1           TComTrQuant::TComTrQuant() [71]
+[97]     0.0    0.00    0.00       1         QpParam::QpParam() [97]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[98]     0.0    0.00    0.00       1         TComPPS::TComPPS() [98]
+                0.00    0.00       1/3           TComScalingList::init() [44]
+                0.00    0.00       1/3           TComScalingList::TComScalingList() [45]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[99]     0.0    0.00    0.00       1         TComSPS::TComSPS() [99]
+                0.00    0.00       1/1           TComRPSList::TComRPSList() [69]
+                0.00    0.00       1/3           TComPTL::TComPTL() [46]
+                0.00    0.00       1/3           TComScalingList::init() [44]
+                0.00    0.00       1/3           TComScalingList::TComScalingList() [45]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncTop::xInitLibCfg() [63]
+[100]    0.0    0.00    0.00       1         TComVPS::~TComVPS() [100]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncTop::xInitLibCfg() [63]
+[101]    0.0    0.00    0.00       1         TEncCfg::xCheckGSParameters() [101]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[102]    0.0    0.00    0.00       1         TEncGOP::TEncGOP() [102]
+-----------------------------------------------
+                0.00    0.00       1/1           TAppEncTop::TAppEncTop() [161]
+[103]    0.0    0.00    0.00       1         TEncTop::TEncTop() [103]
+                0.00    0.00       2/2           TEncSbac::TEncSbac() [55]
+                0.00    0.00       1/2           TComVPS::TComVPS() [54]
+                0.00    0.00       1/1           TEncSearch::TEncSearch() [68]
+                0.00    0.00       1/1           TComTrQuant::initScalingList() [70]
+                0.00    0.00       1/1           TComTrQuant::TComTrQuant() [71]
+                0.00    0.00       1/1           TComLoopFilter::TComLoopFilter() [75]
+                0.00    0.00       1/1           TEncSampleAdaptiveOffset::TEncSampleAdaptiveOffset() [82]
+                0.00    0.00       1/1           TEncCavlc::TEncCavlc() [104]
+                0.00    0.00       1/2           TEncBinCABAC::TEncBinCABAC() [47]
+                0.00    0.00       1/1           TEncGOP::TEncGOP() [102]
+                0.00    0.00       1/1           TEncSlice::TEncSlice() [105]
+                0.00    0.00       1/1           TComSPS::TComSPS() [99]
+                0.00    0.00       1/1           TComPPS::TComPPS() [98]
+                0.00    0.00       1/1           TComRdCost::TComRdCost() [66]
+                0.00    0.00       1/1           TEncBinCABACCounter::TEncBinCABACCounter() [79]
+                0.00    0.00       1/1           TEncPreanalyzer::TEncPreanalyzer() [77]
+                0.00    0.00       1/3           TComScalingList::init() [44]
+                0.00    0.00       1/3           TComScalingList::TComScalingList() [45]
+                0.00    0.00       1/1           TEncRateCtrl::TEncRateCtrl() [74]
+                0.00    0.00       1/1           ContextModel::buildNextStateTable() [73]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[104]    0.0    0.00    0.00       1         TEncCavlc::TEncCavlc() [104]
+-----------------------------------------------
+                0.00    0.00       1/1           TEncTop::TEncTop() [103]
+[105]    0.0    0.00    0.00       1         TEncSlice::TEncSlice() [105]
+                0.00    0.00       1/1           WeightPredAnalysis::WeightPredAnalysis() [78]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1186]
+[106]    0.0    0.00    0.00       1         _init [106]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [22] confirmPara(bool, char const*) [84] df::program_options_lite::OptionFunc::setDefault() [35] df::program_options_lite::Option<unsigned int>::parse(std::string const&)
+  [58] TAppEncCfg::xSetGlobal() [48] df::program_options_lite::OptionFunc::parse(std::string const&) [34] df::program_options_lite::Option<unsigned int>::~Option()
+  [59] TAppEncCfg::xCheckParameter() [85] df::program_options_lite::OptionFunc::~OptionFunc() [23] df::program_options_lite::Options::addOptions()
+  [60] TAppEncCfg::xPrintParameter() [49] df::program_options_lite::parseSHORT(df::program_options_lite::Options&, unsigned int, char const**) [15] df::program_options_lite::Options::addOption(df::program_options_lite::OptionBase*)
+  [61] TAppEncCfg::TAppEncCfg() [86] df::program_options_lite::setDefaults(df::program_options_lite::Options&) [95] df::program_options_lite::Options::~Options()
+  [62] TAppEncTop::xCreateLib() [42] df::program_options_lite::OptionSpecific& df::program_options_lite::OptionSpecific::operator()<std::string>(std::string const&, std::string&, std::string, std::string const&) [52] df::program_options_lite::parseGNU(df::program_options_lite::Options&, unsigned int, char const**)
+  [63] TAppEncTop::xInitLibCfg() [19] df::program_options_lite::OptionSpecific& df::program_options_lite::OptionSpecific::operator()<int>(std::string const&, int&, int, std::string const&) [96] df::program_options_lite::scanArgv(df::program_options_lite::Options&, unsigned int, char const**)
+  [64] TComPicYuv::TComPicYuv() [50] df::program_options_lite::parseConfigFile(df::program_options_lite::Options&, std::string const&) [53] df::program_options_lite::scanFile(df::program_options_lite::Options&, std::istream&)
+  [65] TComRdCost::init()     [24] df::program_options_lite::Option<GOPEntry>::setDefault() [16] df::program_options_lite::scanLine(df::program_options_lite::Options&, std::string&)
+  [66] TComRdCost::TComRdCost() [38] df::program_options_lite::Option<GOPEntry>::parse(std::string const&) [20] df::program_options_lite::storePair(df::program_options_lite::Options&, bool, bool, std::string const&, std::string const&)
+  [67] TEncSearch::setWpScalingDistParam(TComDataCU*, int, RefPicList) [25] df::program_options_lite::Option<GOPEntry>::~Option() [97] QpParam::QpParam()
+  [68] TEncSearch::TEncSearch() [87] df::program_options_lite::Option<Level::Name>::setDefault() [98] TComPPS::TComPPS()
+  [69] TComRPSList::TComRPSList() [88] df::program_options_lite::Option<Level::Name>::parse(std::string const&) [46] TComPTL::TComPTL()
+  [70] TComTrQuant::initScalingList() [89] df::program_options_lite::Option<Level::Name>::~Option() [99] TComSPS::TComSPS()
+  [71] TComTrQuant::TComTrQuant() [90] df::program_options_lite::Option<Level::Tier>::setDefault() [54] TComVPS::TComVPS()
+  [72] TVideoIOYuv::open(char*, bool, int, int, int, int) [91] df::program_options_lite::Option<Level::Tier>::~Option() [100] TComVPS::~TComVPS()
+  [73] ContextModel::buildNextStateTable() [92] df::program_options_lite::Option<Profile::Name>::setDefault() [31] TComYuv::TComYuv()
+  [47] TEncBinCABAC::TEncBinCABAC() [93] df::program_options_lite::Option<Profile::Name>::parse(std::string const&) [101] TEncCfg::xCheckGSParameters()
+  [74] TEncRateCtrl::TEncRateCtrl() [94] df::program_options_lite::Option<Profile::Name>::~Option() [102] TEncGOP::TEncGOP()
+  [75] TComLoopFilter::TComLoopFilter() [36] df::program_options_lite::Option<std::string>::setDefault() [103] TEncTop::TEncTop()
+  [76] TComPrediction::TComPrediction() [43] df::program_options_lite::Option<std::string>::parse(std::string const&) [55] TEncSbac::TEncSbac()
+  [44] TComScalingList::init() [37] df::program_options_lite::Option<std::string>::~Option() [104] TEncCavlc::TEncCavlc()
+  [45] TComScalingList::TComScalingList() [26] df::program_options_lite::Option<bool>::setDefault() [105] TEncSlice::TEncSlice()
+  [77] TEncPreanalyzer::TEncPreanalyzer() [30] df::program_options_lite::Option<bool>::parse(std::string const&) [13] std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > const&)
+  [32] ProfileTierLevel::ProfileTierLevel() [27] df::program_options_lite::Option<bool>::~Option() [56] std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_get_insert_unique_pos(std::string const&)
+  [78] WeightPredAnalysis::WeightPredAnalysis() [39] df::program_options_lite::Option<double>::setDefault() [14] std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::string const&)
+  [79] TEncBinCABACCounter::TEncBinCABACCounter() [51] df::program_options_lite::Option<double>::parse(std::string const&) [21] std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::find(std::string const&)
+  [28] ContextModel3DBuffer::ContextModel3DBuffer(unsigned int, unsigned int, unsigned int, ContextModel*, int&) [40] df::program_options_lite::Option<double>::~Option() [57] std::_Rb_tree<std::string, std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > >, std::_Select1st<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, std::list<df::program_options_lite::Options::Names*, std::allocator<df::program_options_lite::Options::Names*> > > >*)
+  [80] TComWeightPrediction::TComWeightPrediction() [17] df::program_options_lite::Option<int>::setDefault() [41] operator>>(std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >&, GOPEntry&)
+  [81] TComSampleAdaptiveOffset::TComSampleAdaptiveOffset() [29] df::program_options_lite::Option<int>::parse(std::string const&) [106] _init
+  [82] TEncSampleAdaptiveOffset::TEncSampleAdaptiveOffset() [18] df::program_options_lite::Option<int>::~Option() [2] main
+  [83] TComRdCostWeightPrediction::TComRdCostWeightPrediction() [33] df::program_options_lite::Option<unsigned int>::setDefault() [1] <cycle 1>
