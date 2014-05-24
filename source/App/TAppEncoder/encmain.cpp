@@ -39,6 +39,7 @@
 #include <iostream>
 #include "TAppEncTop.h"
 #include "TAppCommon/program_options_lite.h"
+#include "TLibCommon/TComAnalytics.h"
 
 using namespace std;
 namespace po = df::program_options_lite;
@@ -84,12 +85,20 @@ int main(int argc, char* argv[])
   double dResult;
   long lBefore = clock();
 
+  TComAnalytics::globalReset();
+
   // call encoding function
   cTAppEncTop.encode();
 
   // ending time
   dResult = (double)(clock()-lBefore) / CLOCKS_PER_SEC;
   printf("\n Total Time: %12.3f sec.\n", dResult);
+
+    
+  TComAnalytics::printPUEvalReport();
+  TComAnalytics::printCandidatesReport();
+
+
 
   // destroy application encoder class
   cTAppEncTop.destroy();

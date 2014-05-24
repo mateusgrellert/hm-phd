@@ -86,7 +86,7 @@ RELEASE_ASMFLAGS  =
 #########################################################
 
 # linker flags for all
-ALL_LDFLAGS       = -Wall
+ALL_LDFLAGS       = -Wall 
 
 ########## 
 # enforce 32-bit build : 1=yes, 0=no
@@ -100,7 +100,7 @@ endif
 ifeq ($(CONFIG), LIBRARY)
 # linker flags for library
 # LDFLAGS           = $(ALL_LDFLAGS) -shared -Wl,-Bsymbolic
-LDFLAGS           = $(ALL_LDFLAGS) -shared
+LDFLAGS           = $(ALL_LDFLAGS) -shared -pg
 #
 # debug linker flags for library
 DEBUG_LDFLAGS     = -Wl,-soname,lib$(PRJ_NAME)d.so.$(VER)

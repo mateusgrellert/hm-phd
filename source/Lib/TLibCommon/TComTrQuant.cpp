@@ -42,6 +42,8 @@
 #include "TComPic.h"
 #include "ContextTables.h"
 
+#include "TComAnalytics.h"
+
 typedef struct
 {
   Int    iNNZbeforePos0;

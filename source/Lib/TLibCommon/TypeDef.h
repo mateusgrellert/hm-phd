@@ -174,7 +174,7 @@
 #define REG_DCT 65535
 
 #define AMP_SAD                               1           ///< dedicated SAD functions for AMP
-#define AMP_ENC_SPEEDUP                       1           ///< encoder only speed-up by AMP mode skipping
+#define AMP_ENC_SPEEDUP                       0           ///< encoder only speed-up by AMP mode skipping
 #if AMP_ENC_SPEEDUP
 #define AMP_MRG                               1           ///< encoder only force merge for AMP partition (no motion search for AMP)
 #endif

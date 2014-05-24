@@ -1722,6 +1722,7 @@ UInt TComDataCU::getQuadtreeTULog2MinSizeInCU( UInt absPartIdx )
       log2MinTUSizeInCU = m_pcSlice->getSPS()->getQuadtreeTULog2MaxSize();
     }  
   }
+  return m_pcSlice->getSPS()->getQuadtreeTULog2MinSize();
   return log2MinTUSizeInCU;
 }
 

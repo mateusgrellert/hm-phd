@@ -46,6 +46,7 @@
 #include "TLibCommon/SEI.h"
 #include "TLibCommon/NAL.h"
 #include "NALwrite.h"
+#include "TLibCommon/TComAnalytics.h"
 #include <time.h>
 #include <math.h>
 
@@ -2437,6 +2438,9 @@ Void TEncGOP::xCalculateAddPSNR( TComPic* pcPic, TComPicYuv* pcPicD, const Acces
     }
     printf("]");
   }
+  
+  TComAnalytics::printCandidatesReport();
+
 }
 
 Void reinterlace(Pel* top, Pel* bottom, Pel* dst, UInt stride, UInt width, UInt height, bool isTff)

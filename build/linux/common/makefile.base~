@@ -12,7 +12,7 @@ endif
 # executables used
 #########################################################
 
-CPP     = g++
+CPP     = g++ -pg
 CC      = gcc
 AR    	= ar
 LD    	= $(CPP)
@@ -86,7 +86,7 @@ RELEASE_ASMFLAGS  =
 #########################################################
 
 # linker flags for all
-ALL_LDFLAGS       = -Wall
+ALL_LDFLAGS       = -Wall 
 
 ########## 
 # enforce 32-bit build : 1=yes, 0=no
